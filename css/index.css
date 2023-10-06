@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+h1 {
+    color: rgb(44, 5, 240);
+    /* Задаємо червоний колір тексту */
+    text-decoration: underline;
+    /* Підкреслюємо текст */
+    font-size: 36px;
+    /* Встановлюємо розмір шрифту (великий розмір) */
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Pixelify Sans', cursive;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+#footer {
+    background-color: aqua;
+}
+
+footer {
+    background-color: brown;
+}
+
+.footer-text {
+    color: green;
+    margin-bottom: 100px;
+}
+
+.top-image {
+    margin: 50px auto;
+    border: 5px solid red;
+    padding: 5px;
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 20px purple; /* Додаємо тінь фіолетового кольору з розміром 20 пікселів */
+}
